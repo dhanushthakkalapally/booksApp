@@ -1,0 +1,12 @@
+version: "3.9"
+
+
+services:
+  db:
+    image: postgres:latest
+    ports:
+      - 4573:5432
+    hostname: db
+    environment:
+      POSTGRES_PASSWORD: Dhanush97
+      POSTGRES_USER: sanju
