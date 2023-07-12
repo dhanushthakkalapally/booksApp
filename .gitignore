@@ -2,3 +2,4 @@ venv
 Pycharm
 .idea/
 __pycache__/
+.env
